@@ -5,21 +5,20 @@ import math
 
 
 class Perceptron:
-    def __init__(self, language, num_inputs=26, learning_rate=0.01):
+    def __init__(self, num_inputs=26, learning_rate=0.01):
         self.weights = {letter: random.uniform(-1, 1) for letter in string.ascii_lowercase}
         self.bias = 0
         self.learning_rate = learning_rate
-        self.language = language
+
     def sigmoid(self, x):
         return 1 / (1 + math.exp(-x))
+
     def predict(self, inputs: dict):
         weighted_sum = self.bias
 
         for key in inputs:
             if key != 'desired_output':
-                # print("Inputs[key] " + str(inputs[key]) + " self.weights[key] " + str(self.weights[key]))
                 weighted_sum += inputs[key] * self.weights[key]
-                # print(weighted_sum)
 
         prediction = 1 if weighted_sum > 0 else 0
         return prediction
@@ -40,77 +39,76 @@ class Perceptron:
                 self.bias += self.learning_rate * (desired_output - prediction)
 
 
-class Neural_network:
+class NeuralNetwork:
     def __init__(self):
-        self.german_perceptron = Perceptron(language='German')
-        self.english_perceptron = Perceptron(language='English')
-        self.polish_perceptron = Perceptron(language='Polish')
+        self.perceptrons = []
 
-    def train(self):
-        self.german_perceptron.train(self.training_data)
-        self.english_perceptron.train(self.training_data)
-        self.polish_perceptron.train(self.training_data)
+    def train(self, training_data):
+        languages = set()
+        for data in training_data:
+            languages.add(data['desired_output'])
 
-    def test(self):
+        for language in languages:
+            perceptron = Perceptron()
+            perceptron.language = language
+            perceptron.train([data for data in training_data if data['desired_output'] == language])
+            self.perceptrons.append(perceptron)
+
+    def test(self, test_data):
         correctly_predicted = 0
+        total_files = 0
 
-        for i in os.listdir("testing_data"):
-            folder_path = os.path.join("testing_data", i)
-            for j in os.listdir(folder_path):
-                file_path = os.path.join(folder_path, j)
+        for folder_name in os.listdir(test_data):
+            folder_path = os.path.join(test_data, folder_name)
+            for file_name in os.listdir(folder_path):
+                file_path = os.path.join(folder_path, file_name)
                 letters_count = self.parse_file_to_dict(file_path)
-                results = {
-                    'German': self.german_perceptron.predict(letters_count),
-                    'English': self.english_perceptron.predict(letters_count),
-                    'Polish': self.polish_perceptron.predict(letters_count)
-                }
-                print(results)
-                path = file_path.split("\\")
-                language = path[-2]
-                for key, value in results.items():
-                    if key == language and value == 1:
-                        correctly_predicted += 1
-                        break
+                results = {perceptron.language: perceptron.predict(letters_count) for perceptron in self.perceptrons}
+                predicted_language = max(results, key=results.get)
+                if predicted_language == folder_name:
+                    correctly_predicted += 1
+                total_files += 1
 
-        print("Accuracy " + str((correctly_predicted * 100) / 9))
+        accuracy = (correctly_predicted / total_files) * 100 if total_files > 0 else 0
+        print("Accuracy:", accuracy)
 
+    def load_training_data(self, training_data_dir):
+        training_data = []
 
+        for language_dir in os.listdir(training_data_dir):
+            language_path = os.path.join(training_data_dir, language_dir)
+            for file_name in os.listdir(language_path):
+                file_path = os.path.join(language_path, file_name)
+                letters_count = self.parse_file_to_dict(file_path)
+                training_data.append(letters_count)
 
-    def load_training_data(self):
-        self.training_data = []
-
-        for i in os.listdir("training_data"):
-            folder_path = os.path.join("training_data", i)
-            for j in os.listdir(folder_path):
-                file_path = os.path.join(folder_path, j)
-                lettes_count = self.parse_file_to_dict(file_path)
-                self.training_data.append(lettes_count)
-                print(lettes_count)
+        return training_data
 
     def parse_file_to_dict(self, file_path):
         letters_count = {letter: 0 for letter in string.ascii_lowercase}
-        counter = 0
+        total_letters = 0
 
         with open(file_path, 'r', encoding='utf-8') as file:
             for line in file:
                 for letter in line:
                     lowercase_letter = letter.lower()
                     if lowercase_letter in letters_count:
-                        counter += 1
+                        total_letters += 1
                         letters_count[lowercase_letter] += 1
 
+        for key in letters_count:
+            if total_letters > 0:
+                letters_count[key] /= total_letters
 
-        for key, value in letters_count.items():
-            letters_count[key] = value / counter
-
-        path = file_path.split('\\')
-        language = path[-2]
+        path_parts = file_path.split(os.sep)
+        language = path_parts[-2]
         letters_count['desired_output'] = language
 
         return letters_count
 
 
 if __name__ == '__main__':
-    neural_net = Neural_network()
-    neural_net.load_training_data()
-    neural_net.test()
+    neural_net = NeuralNetwork()
+    training_data = neural_net.load_training_data("training_data")
+    neural_net.train(training_data)
+    neural_net.test("testing_data")
