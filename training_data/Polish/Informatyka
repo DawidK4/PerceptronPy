@@ -1,0 +1,301 @@
+
+I
+E
+D
+Z
+A
+Świat potrzebuje W.
+Wesprzyj Wikipedię swoim
+1,5% PODATKU
+Spis treści ukryj
+Początek
+Etymologia
+Przegląd dyscyplin informatycznych
+Przełącz podsekcję Przegląd dyscyplin informatycznych
+Edukacja
+Przełącz podsekcję Edukacja
+Zobacz też
+Przypisy
+Linki zewnętrzne
+Informatyka
+
+Artykuł
+Dyskusja
+Czytaj
+Edytuj
+Edytuj kod źródłowy
+Wyświetl historię
+
+Narzędzia
+	Zobacz też: czasopismo „Informatyka”.
+Expression for Church numerals in lambda calculus	Plot of a quicksort algorithm
+Example of Computer animation produced using Motion capture	Half-adder circuit
+Informatyka zajmuje się teoretycznymi podstawami informacji, algorytmami i architekturami układów ją przetwarzających oraz praktycznymi technikami ich stosowania.
+Informatyka (niem. Informatik, ang. computer science, computing, computer engineering, IT, ICT)[1] – nauka ścisła oraz techniczna zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje[2]. Zajmuje się rozwiązywaniem problemów obliczeniowych, opisem procesów algorytmicznych oraz tworzeniem programów komputerowych i częściowo sprzętu komputerowego (z wyłączeniem zagadnień materialnych i energetycznych)[3][4][5]. Informatyka początkowo stanowiła część matematyki, z czasem wyodrębniła się do oddzielnej dyscypliny. W języku polskim termin „informatyka” zaproponował w październiku 1968 r. Romuald Marczyński (w Zakopanem, na ogólnopolskiej konferencji podczas wykładu zatytułowanego „Informatyka, czyli maszyny matematyczne i przetwarzanie informacji”)[6], na wzór francuskiego informatique i niemieckiego Informatik.
+
+Etymologia
+Termin informatics nie mógł zostać wprowadzony do słownictwa amerykańskiego z uwagi na problemy prawne – istniało tam przedsiębiorstwo o nazwie Informatics Inc﻿[w innych językach], co zablokowało chęć zmiany nazwy ACM na Society for Informatics. Wówczas popularny był już tam termin computer science – dosłownie: „nauka o komputerze” – co może być mylące, stąd spotykał się często z krytyką środowisk akademickich[7]. Proponowano wiele alternatywnych nazw, m.in. Computer Studies, Computics, Computing Science, Computation Science, Information engineering, Information Technology. Association for Computing Machinery będące najważniejszą organizacją branżową przyjął termin computing na nazwę ogólnej dyscypliny. Częściowo powrócono jednak później do computer science ze względu na to, że termin ten się silnie zakorzenił. Współcześnie określenie computing odnosi się do całej dyscypliny, a computer science to jej część w której obowiązuje rygor naukowy, podczas gdy informatyka techniczna skupia się na aspektach praktycznych i traktowana jest jako nauka inżynierska. W informatyce technicznej można wyróżnić szereg specjalności, takich jak inżynieria komputerowa (computer engineering, technische Informatik[8]) związana z tworzeniem sprzętu komputerowego i oprogramowania wbudowanego, technologia informacyjna (information technology), współcześnie najczęściej spotykana w tworzeniu oprogramowania dla zastosowań biznesowych, inżynieria oprogramowania (software engineering), odnosząca się ogólnie do programowania, lecz ściśle związana z zarządzaniem procesem wytwarzania oprogramowania. SE i IT są czasem na wzór niemiecki zbiorczo nazywane informatyką praktyczną (niem. praktische Informatik)[9][10].
+
+Przetwarzanie informacji jest różnie interpretowane, przez co istnieją różne definicje informatyki. Uniwersytet Edynburski definiuje ją jako naukę o systemach obliczeniowych, w której centralną notacją jest transformacja informacji[2]. Według Petera J. Denninga podstawowym pytaniem leżącym u podstaw informatyki jest: „Co można zautomatyzować?”[11]. Według teorii Stuarta C. Shapiro, informatyka jest nauką przyrodniczą, która bada procedury. Adam Olszewski wyróżnił pięć rodzajów obiektów, które są przedmiotem zainteresowania informatyki: funkcje efektywnie obliczalne, algorytmy, programy komputerowe, realizacje i maszyny[12]. W roku 2005, w ACM Computing Curricula[13] przedstawiono następujący opis:
+
+Ogólnie rzecz biorąc, możemy zdefiniować informatykę (computing) jako jakąkolwiek zorientowaną na cel działalność wymagającą, korzystającą z lub tworzącą maszyny obliczeniowe. W związku z tym informatyka obejmuje projektowanie i budowanie systemów sprzętu i oprogramowania do szerokiego zakresu celów; przetwarzanie, strukturyzację i zarządzanie różnymi rodzajami informacji; obliczeniowe badania naukowe; sprawianie, by systemy komputerowe zachowywały się inteligentnie; (...) Lista jest praktycznie nieskończona, a możliwości są ogromne.
+
+Przegląd dyscyplin informatycznych
+Informatyka jest tylko o komputerach, tak jak astronomia tylko o teleskopach.
+
+Edsger Dijkstra
+Jako dyscyplina informatyka obejmuje szereg tematów, od teoretycznych badań nad algorytmami i teorią obliczalności po praktyczne zagadnienia związane z implementowaniem systemów obliczeniowych zarówno w warstwie sprzętowej, jak i oprogramowaniu[3][4]. CSAB, dawniej zwana Computing Sciences Accreditation Board – w skład której wchodzą przedstawiciele Association for Computing Machinery (ACM) oraz IEEE Computer Society (IEEE CS)[14] – identyfikuje cztery obszary, które uważa za kluczowe dla informatyki: teoria obliczeń, algorytmy i struktury danych, języki i metodologia programowania oraz budowa i architektura komputerów. Oprócz tych czterech podstawowych obszarów, CSAB identyfikuje również takie dziedziny, jak inżynieria oprogramowania, sztuczna inteligencja, sieci komputerowe i komunikacja, systemy baz danych, obliczenia równoległe, obliczenia rozproszone, interakcja człowiek–komputer, grafika komputerowa, systemy operacyjne oraz metody numeryczne i symboliczne jako będące ważnymi dziedzinami informatyki[3].
+
+Początkowo towarzystwa ACM i IEEE CS publikowały własne oddzielne zalecenia dotyczące programów studiów. Z czasem postanowiono utworzyć wspólną dyscyplinę oraz wspólne zalecenia dotyczące programów kształcenia. W pracach nad ujednoliceniem programów studiów uczestniczyły organizacje: ACM, IEEE Computer Society, Association for Information Systems, ACM SIG Information Technology Education, British Computer Society, International Federation for Information Processing, ABET and CSAB. Wyróżniono 5 głównych specjalizacji[15]: inżynieria komputerowa (ang. computer engineering, CE), informatyka naukowa (ang. computer science, CS), systemy informacyjne (ang. information systems, IS), technologia informacji (ang. information technology, IT), inżynieria oprogramowania (ang. software engineering, SE). W 2020 podobna grupa organizacji przygotowała programy studiów dla kolejnych 2 specjalizacji: cyberbezpieczeństwo (ang. cybersecurity) oraz danologię (ang. data Science). W Niemczech zwyczajowo dzieli się natomiast na informatykę teoretyczną, techniczną, praktyczną oraz realizacje i stosowaną.
+
+Architektur der Informatik
+Peter J. Denning z kolei w swoim artykule o informatyce[16] pogrupował treści w następujące działy: algorytmy i struktury danych, języki oprogramowania, architektura komputerów i oprogramowania, systemy operacyjne i sieci, inżynieria oprogramowania, bazy danych i wyszukiwanie informacji, sztuczna inteligencja i robotyka, grafika komputerowa, interakcja człowiek–komputer, symulacje komputerowe i obliczenia numeryczne, informatyka ekonomiczna, bioinformatyka. Jednocześnie dla każdego z tych obszarów zaproponował podział na trzy podejścia dotyczące strony teoretycznej, abstrakcyjnej oraz twórczej.
+
+Informatyka teoretyczna
+Teoretyczna informatyka (ang. theoretical computer science) ma ducha matematycznego i abstrakcyjnego, ale motywację czerpie z praktycznych i codziennych obliczeń. Jej celem jest zrozumienie natury obliczeń, w konsekwencji czego wprowadza ich coraz bardziej efektywne metody. Jest ona częścią matematyki i informatyki, która grupuje matematyczne podstawy informatyki. Jej najważniejsze obszary to teoria obliczeń, teoria informacji oraz algorytmika. Informatyka teoretyczna stara się odpowiedzieć na fundamentalne pytania w informatyce np. P versus NP problem i stanowi trzon dla bardziej praktycznych dziedzin.
+
+Algorytmika to więcej niż dział informatyki. Tkwi ona w centrum wszystkich działów informatyki.
+
+David Harel, Algorithmics. The Spirit of Computing[17]
+Algorytmika. Algorytmy i struktury danych
+ Osobne artykuły: Algorytmika, Algorytm i Struktura danych.
+Algorytmika zajmuje się projektowaniem i analizą algorytmów i struktur danych. Jest najstarszą i jedną z najważniejszych dziedzin informatyki. Wśród jej podstawowych obszarów można wymienić projektowanie i analizę algorytmów, geometrię obliczeniową, optymalizację kombinatoryczną oraz logikę algorytmiczną. Historycznie podstawowymi zagadnieniami są algorytmy sortowania, kompresji, przeszukiwania czy szyfrowania oraz metody numeryczne. Algorytmy podlegają klasyfikacji, wyróżniając np. algorytmy zachłanne jak algorytm Dijkstry czy algorytm Kruskala, metody generowania liczb losowych, metody optymalizacji itd. Do podstawowych struktur danych należą rekord, tablica, stos, lista, kolejka, drzewa czy grafy. Próbą połączenia idei struktur danych i algorytmów jest paradygmat programowania obiektowego.
+
+
+Analiza algorytmów	Projektowanie algorytmów	Struktury danych	Algorytmy zachłanne	Geometria obliczeniowa	Algorytmy probabilistyczne
+Teoria obliczeń. Języki, automaty, złożoność
+ Osobne artykuły: Teoria obliczeń i Teoria automatów.
+Teoria obliczeń dzieli się na trzy główne części: teorię automatów, teorię obliczalności oraz teorię złożoności. Teoria automatów zajmuje się definicjami i własnościami modeli obliczeń, matematycznymi modelami maszyn liczących. W uproszczeniu zajmuje się ona odpowiedzią na pytanie czym jest komputer, teoria obliczalności zajmuje się odpowiedzią na pytanie, które problemy dają się rozwiązać przy pomocy komputera, a teoria złożoności – odpowiedzią na pytanie jak szybko da się to zrobić[18][19]. Przykładowymi zagadnieniami są Maszyna Turinga czy Hipoteza Churcha-Turinga. Języki formalne stanowią podstawę badań nad językami komputerowymi, jak i naturalnymi w lingwistyce. Systemy formalne są tworzone i badane zarówno jako samodzielne abstrakcyjne twory, jak i systemy opisu rzeczywistości.
+
+
+�
+=
+{
+�
+:
+�
+∉
+�
+}
+{\displaystyle M=\{X:X\notin X\}}
+Teoria automatów	Język formalny	Teoria obliczalności	Teoria złożoności obliczeniowej	Automat komórkowy
+Teoria informacji i kodowania
+ Osobny artykuł: Teoria informacji.
+Matematyczna teoria informacji zajmuje się problematyką informacji, w tym podstawami teoretycznymi dla przetwarzania i przesyłania informacji, np. w celu ich transmisji lub kompresji. Przykładowo wprowadza takie pojęcia jak komunikat, entropia, ciało skończone czy bit będący podstawową jednostką w informatyce. Teoria kodowania zajmuje się tworzeniem i analizą reprezentacji danych w komputerze. Wyróżnia się m.in. kodowanie znaków czy kodowanie transportowe, do których należą np. kod stałopozycyjny.
+
+Informatyka kwantowa
+ Osobny artykuł: Informatyka kwantowa.
+Informatyka kwantowa to gałąź informatyki łącząca ją z mechaniką kwantową, w której do przetwarzania informacji wykorzystywane są własności układów kwantowych[20]. Elementarnym nośnikiem informacji kwantowej jest kubit, kwantowy odpowiednik bitu. Stan kubitu opisany jest przez dowolną kombinację liniową stanów bazowych. W najbardziej popularnym modelu kwantowego przetwarzania informacji, operacje na kubitach są reprezentowane za pomocą bramek kwantowych. Najbardziej spektakularny sukces informatyki kwantowej to kwantowa kryptografia. Natomiast najbardziej obiecującym kierunkiem badań są prace dotyczące idei kwantowego komputera. Dynamiczny rozwój technologii w ostatnich latach spowodował, że gałąź ta wyłamuje się poza czysto-teoryczne rozważania. Stworzono pewne realizacje bramek kwantowych, a na targach CES w 2018 roku amerykańskie przedsiębiorstwo informatyczne IBM zaprezentowała swój działający, 50-kubitowy komputer kwantowy[21].
+
+Teoria języków programowania, typów, kompilacji
+ Osobny artykuł: Teoria języków programowania.
+Teoria języków programowania (ang. Programming language theory, PLT) to dziedzina informatyki zajmująca się projektowaniem, wdrażaniem, analizą, charakteryzacją i klasyfikacją języków programowania oraz ich indywidualnymi cechami[22]. Przykładowymi obszarami PLT są semantyki formalne (ang. formal semantics), teoria typów (ang. type theory)[23] czy metaprogramowanie. Na języki programowania składa się składnia, semantyka i biblioteki standardowe, zazwyczaj posiadają co najmniej obsługę wejścia-wyjścia, obsługę plików, obsługę wielowątkowości, zarządzanie pamięcią operacyjną, podstawowe typy danych, funkcje do zarządzania nimi np. operacje na ciągach znaków. Ważnym obszarem PLT jest też teoria kompilacji, na której proces składa się wykonanie poleceń preprocesora, analiza leksykalna, analiza składniowa, analiza semantyczna, optymalizacja kodu wynikowego i generacja kodu. Języki klasyfikuje się według poziomu abstrakcji na którym operują na języki niskiego poziomu oraz języki wysokiego poziomu, wyróżnia się także wiele paradygmatów programowania[24][25].
+
+
+Teoria typów	Teoria kompilacji	Teoria języków programowania	Języki programowania	Paradygmaty programowania
+Inżynieria komputerowa
+ Osobny artykuł: Inżynieria komputerowa.
+Inżynieria komputerowa (ang. computer engineering, niem. Technishe Informatik) – zajmuje się tworzeniem systemów komputerowych. Do jej zadań należy projektowanie, wytwarzanie, integracja i eksploatacja sprzętu cyfrowego, w tym urządzeń sieciowych. Początkowo zajmowała się głównie tworzeniem procesorów, a współcześnie ważną jej rolę stanowi także tworzenie sprzętu i sterowników dla systemów wbudowanych, które wraz z pojawieniem się koncepcji IoT mają coraz większe znaczenie[26]. Do jej zagadnień należy architekturą i organizacją systemów komputerowych na poziomie sprzętowym oraz oprogramowania sprzętowego.
+
+Logika obliczeniowa i technika cyfrowa
+ Osobny artykuł: Technika cyfrowa.
+Technika cyfrowa zajmuje się projektowaniem i analizą układów cyfrowych. Do jej elementarnych zagadnień należą bramki logiczne, rejestry, układy sekwencyjne i układy kombinacyjne. Obejmuje syntezę logiczną i odwzorowanie technologiczne[27]. Współcześnie jej zagadnienia są kształtowane z jednej strony przez języki opisu sprzętu, a z drugiej przez bezpośrednio programowalne macierze bramek[27][28]. Układy logiczne początkowo implementowano jako układy mechaniczne, następnie jako elektromechaniczne i dominujące współcześnie układy elektroniczne.
+
+Architektura i organizacja komputerów
+ Osobny artykuł: Architektura komputera.
+Architektura komputerów (AK) to główny obszar inżynierii komputerowej zajmujący się projektowaniem i podstawową strukturą systemów komputerowych oraz budową i organizacją ich podzespołów. Główny obszar AK stanowi architektura procesorów na którą składa się model programowy procesora oraz mikroarchitektura procesora[29]. Procesory są głównym elementem systemów komputerowych. Szczególna uwaga jest poświęcona na sposobie, w jaki procesor wykonuje instrukcje i uzyskuje dostęp do adresów w pamięci. Przykładowe zagadnienia to DMA czy kontroler[30][31]. Ważnymi obszarami AK są także magistrale oraz pamięci komputerowe. Pamięcią komputerową nazywa się różnego rodzaju urządzenia i bloki funkcjonalne komputera, służące do przechowywania danych i programów (systemu operacyjnego oraz aplikacji). Istnieje jej wiele rodzajów, m.in. rejestry procesora, pamięć podręczna procesora, pamięć RAM, dyski półprzewodnikowe (SSD), dyski twarde (HDD). Wyróżnia się pamięci zewnętrzne i wewnętrzne. Magistralę komunikacyjną (ang. bus) definiuje się jako zespół linii przenoszących sygnały oraz układy wejścia-wyjścia służące do przesyłania sygnałów między połączonymi urządzeniami w systemach mikroprocesorowych[32].
+
+
+Architektura procesorów	Architektura pamięci	Magistrale	Mikroarchitektura procesorów	Pamięć komputerowa	Urządzenia wejścia-wyjścia
+Przetwarzanie równoległe i rozproszone
+ Osobne artykuły: Przetwarzanie współbieżne, Obliczenia równoległe i Obliczenia rozproszone.
+Obliczenia równoległe to obszar badający możliwość obliczeń, w której wiele instrukcji jest wykonywanych jednocześnie. Taka forma przetwarzania danych była wykorzystywana przez wiele lat, głównie przy wykorzystaniu superkomputerów, a szczególne zainteresowanie zyskała w ostatnich latach, z uwagi na fizyczne ograniczenia uniemożliwiające dalsze zwiększanie częstotliwości taktowania procesorów. Obliczenia równoległe stały się dominującym wzorcem w architekturze komputerowej, głównie za sprawą upowszechnienia procesorów wielordzeniowych. Ze względu na skalę można wyróżnić obliczenia równoległe na poziomie: bitów, instrukcji, danych i zadań. Współbieżność jest właściwością systemów, w których obliczenia wykonuje się jednocześnie i potencjalnie korzystają ze wspólnych zasobów i/lub wchodzą w interakcje ze sobą. Opracowano wiele modeli obliczeń równoległych, w tym sieci Petriego, rachunek procesowy (ang. process calculus) i model maszyny dostępu równoległego (ang. parallel random-access machine, PRAM). Kiedy wiele komputerów jest podłączonych do sieci podczas korzystania ze współbieżności, jest to nazywane systemem rozproszonym. w którym to komputery mają własną pamięć, a informacje są wymieniane, by osiągnąć wspólne cele.
+
+
+Przetwarzanie współbieżne	Przetwarzanie rozproszone	Przetwarzanie równoległe	Potokowość	Problem 5 filozofów
+Programowanie niskopoziomowe
+Oprogramowanie niskopoziomowe pisze się w językach niskiego poziomu. Są to głównie języki asemblera, stanowią symboliczny zapis instrukcji procesora i danych, który w prosty sposób odpowiada zapisowi binarnemu. Języki asemblerowe wprowadzone w celu czytelnej dla człowieka reprezentacji języków maszynowych komputerów. W przeciwieństwie do języków wysokiego poziomu, typowe języki asemblerowe charakteryzują się strukturą liniową (wierszową). Każdy wiersz tekstu może zawierać pojedynczą instrukcję procesora lub dyrektywę asemblera[33].
+
+
+Rozkazy	Kod maszynowy	Kod binarny	Rejestry	Instrukcje
+Sieci komputerowe
+ Osobny artykuł: Sieć komputerowa.
+Sieci komputerowe to gałąź informatyki mająca na celu tworzenie sieci między komputerami nazywanych węzłami, umożliwiając im współdzielenie zasobów. W sieciach komputerowych urządzenia komputerowe wymieniają się danymi za pomocą warstw sieciowych. W modelu OSI wyróżnia się warstwę aplikacji, prezentacji, sesji, transportową, sieciową, łącza danych i fizyczną, a w modelu TCP/IP – będącym podstawą struktury internetu – wyróżnia się warstwy aplikacji, transportową, internetową i dostępu do sieci. Te łącza danych są ustanawiane za pomocą mediów kablowych, takich jak skrętka lub kable światłowodowe, oraz mediów bezprzewodowych, takich jak np. Wi-Fi[34]. Jednymi z podstawowych zagadnień sieci są protokoły oraz urządzenia sieciowe. Do najpopularniejszych urządzeń sieciowych należy karta sieciowa, router, koncentrator, przełącznik, punkt dostępowy, most, ekspander zasięgu Wi-Fi (repeater Wi-Fi), adaptery PowerLine, serwery wydruku, kamery IP, bramki VoIP orazy telefony IP[35]. Protokołem komunikacyjnym nazywa się zbiór ścisłych reguł i kroków postępowania, które są automatycznie wykonywane przez urządzenia sieciowe w celu nawiązania łączności i wymiany danych. Definiują one syntaksę, semantykę, synchronizację komunikacji oraz możliwe metody naprawiania błędów. Protokoły te mogą zostać wdrożone za pomocą hardware'u, oprogramowania lub obu jednocześnie[36].
+
+
+Topologie sieci komputerowej	Architektura sieci	Protokoły sieciowe	Urządzenie sieciowe	Internet
+Systemy operacyjne
+ Osobny artykuł: System operacyjny.
+Systemy operacyjny pełnią szczególną rolę w informatyce. Jest to oprogramowanie zarządzające systemem komputerowym, tworzące środowisko do uruchamiania i kontroli zadań. Najważniejszym elementem systemu operacyjnych jest jego jądro wykonujące i kontrolujące zadania m.in. planisty czasu procesora, ustalającego które zadanie i jak długo będzie wykonywane czy przełącznika zadań, odpowiedzialnego za przełączanie pomiędzy uruchomionymi zadaniami. System operacyjny posiada także swoją powłokę, czyli specjalny program komunikujący użytkownika z systemem operacyjnym oraz system plików – sposób ustrukturyzowanego zapisu danych na nośniku. Osoby administrujące systemami nazwa się administratorami (pot. adminami). Współcześnie najważniejszą rodziną systemów operacyjnych jest GNU/Linux oraz Windows.
+
+
+Sterowniki	Planista	Jądro systemu operacyjnego	Powłoka systemowa	System plików
+Informatyka praktyczna
+ Osobne strony: Programowanie komputerów i Kategoria:Konstrukcje programistyczne.
+Programowanie komputerów to proces projektowania, tworzenia, testowania i utrzymywania kodu źródłowego programów komputerowych w tym dla urządzeń mikroprocesorowych (mikrokontrolery). Programowanie pod różnymi postaciami jest obecne w większości działów informatyki. Kod źródłowy jest napisany w języku programowania, z użyciem określonych reguł, może on być modyfikacją istniejącego programu lub czymś zupełnie nowym. Programowanie wymaga wiedzy i doświadczenia w wielu dziedzinach, jak projektowanie aplikacji, algorytmika, struktury danych, języki programowania i narzędzia programistyczne, kompilatory, czy sposób działania podzespołów komputera. Między programistami trwają debaty, czy programowanie komputerów jest sztuką, rzemiosłem czy procesem inżynieryjnym. Bezpośrednią formą sztuki w tej dziedzinie jest demoscena. Programowanie komputerów integruje ze sobą większość gałęzi informatyki. Istnieje wiele gałęzi rozwoju technik programowania, jednak wszystkie z nich bazują na wspólnych podstawach. Niezależnie czy to będzie aplikacja webowa w Javascript, gra komputerowa w C++ czy program mikrokontrolera w C, używają one podstawowych konstrukcji programistycznych. Podstawymi pojęciami od których zaczyna się naukę programowania są między innymi zmienne, tablice, instrukcje warunkowe, pętle, wskaźniki, łańcuchy, funkcje, debugowanie, biblioteki oraz zarządzanie pamięcią. Języki dzieli się na generacje: 2GL, 3GL, 4GL, 5GL. Wyróżnia się między innymi języki akcji, języki algorytmiczne, języki dziedzinowe, języki interpretowane, języki kompilowane, języki mnemoniczne, języki nieproceduralne, języki niezależne komputerowo, języki niskiego poziomu, języki opisu zadań, języki problemowe[potrzebny przypis], języki proceduralne, języki symulacyjne, języki uniwersalne i języki wysokiego poziomu. Do najpopularniejszych języków programowania zalicza się: Java, C, Python, C++, Visual Basic .NET, C#, JavaScript, PHP, SQL, Język Asemblera, Swift, Objective-C, Ruby, Groovy, Go, Perl, MATLAB, Visual Basic, Object Pascal.
+
+
+Języki wysokiego poziomu	Przepływ sterowania	Biblioteki programistyczne	Programowanie obiektowe	Programowanie strukturalne
+Grafika komputerowa
+ Osobny artykuł: Grafika komputerowa.
+Grafika komputerowa to dział informatyki zajmujący się cyfrową syntezą i manipulacją treści wizualnych. Ze względu na reprezentację danych dzieli się na grafikę rastrową i wektorową, a ze względu na charakter danych na grafikę dwuwymiarową, trójwymiarową i ruchomą. Obejmuje także obecnie szybko rozwijające się przetwarzenie obrazów. Grafikę komputerową można także podzielić na teoretyczną skupiającą się algorytmach graficznych i praktyczną, skupiającą się manipulacji obrazem czy modelowaniu 3D np. w programie Blender. Grafika komputerowa stanowi podstawę współczesnych gier, animacji, symulacji czy wizualizacji komputerowych. Renderowanie polega na analizie stworzonego wcześniej modelu danej sceny oraz utworzenie na jej podstawie dwuwymiarowego obrazu wyjściowego w formie statycznej lub animacji. Podczas renderowania rozpatrywane są m.in. odbicia, cienie, załamania światła, wpływy atmosfery (w tym mgła), efekty wolumetryczne itp.
+
+
+Grafika rastrowa	Grafika wektorowa	Grafika trójwymiarowa	Renderowanie i animacja	Cyfrowe przetwarzanie obrazów
+Inżynieria oprogramowania
+ Osobny artykuł: Inżynieria oprogramowania.
+Inżynieria oprogramowania, także inżynieria systemów informatycznych – zajmuje się procesem i metodykami tworzenia systemów informatycznych: od analizy i określenia wymagań, przez projektowanie i wdrożenie, aż do ewolucji gotowego oprogramowania. Termin inżynieria oprogramowania po raz pierwszy został użyty w przełomie lat 1950/60 (ale oficjalnie za narodziny tej dyscypliny podaje się lata 1968 i 1969, w których miały miejsce dwie konferencje sponsorowane przez NATO, odpowiednio w Garmisch i Rzymie). Wyróżnia fazy produkcji oprogramwania: specyfikacji, projektowania, implementacji, integracji i ewoluacji, a także dostarcza systematycznych metodyk jego tworzenia, jak m.in. model kaskadowy, prototypowy czy zwinny, w tym scrum. Wprowadza takie pojęcia jak np. cykl życia programu czy metryka oprogramowania. Wyróżnia się także jej specjalizacje np. inżynieria systemów mobilnych, inżynieria systemów baz danych, inżynieria sytemów wbudowanych czy inżynieria gier komputerowych. Wzorcem projektowym (ang. design pattern) nazywa się uniwersalne, sprawdzone w praktyce rozwiązanie często pojawiających się, powtarzalnych problemów projektowych. Pokazuje powiązania i zależności pomiędzy klasami oraz obiektami i ułatwia tworzenie, modyfikację oraz utrzymanie kodu źródłowego. Jest opisem rozwiązania, a nie jego implementacją. Architekturą oprogramowania nazwywa podstawową organizację systemu wraz z jego komponentami, wzajemnymi powiązaniami, środowiskiem pracy i regułami ustanawiającymi sposób jego budowy i rozwoju. Metody formalne – tworzenie specyfikacji, projektowania i weryfikacji oprogramowania lub systemów informatycznych w języku formalnym. Metody formalne najlepiej opisać jako zastosowanie dość szerokiej gamy podstaw teoretycznych informatyki, w szczególności rachunku logicznego, języków formalnych, teorii automatów, systemu dynamiki zdarzeń dyskretnych i semantyki programów, a także systemów typów i typów danych algebraicznych do specyfikacji i weryfikacji problemów w oprogramowaniu i sprzęcie.
+
+
+Diagramy UML	Wzorce projektowe	Architektura oprogramowania	Metodyki wytwarzania oprogramowania	Metody formalne
+Cyberbezpieczeństwo i kryptologia
+ Osobne artykuły: Bezpieczeństwo komputerowe i Kryptologia.
+Kryptologia dzieli się na kryptografię, czyli gałąź wiedzy o utajnianiu wiadomości oraz kryptoanalizę, czyli gałąź wiedzy o przełamywaniu zabezpieczeń oraz o deszyfrowaniu wiadomości przy braku klucza lub innego wymaganego elementu schematu szyfrowania (szyfru). Przykładowe metody to atak brute force czy kryptoanaliza liniowa. Bezpieczeństwo komputerowe (ang. computer security'', pot. cybersecurity, hacking) zajmuje się zapewnianiem poufności i bezpieczeństwa danych. Osoby posiadające szeroką i zaawansowaną wiedzę informatyczną, lecz nieetycznie z niej korzystający nazywani są cracker. Ich szczególnym zainteresowaniem jest wyszukiwanie luk (dziur) w systemach operacyjnych, programach, sieciach komputerowych czy urządzeniach do niej podłączonych w celu przejęcia nad nimi zdalnej kontroli. Wyróżnia się wiele klasycznych ataków komputerowych takich jak na przykład DDoS, HTTP Flood, UDP flood, smurf attack, session hijacking, a także wiele rodzajów wirusów komputerowych, trojanów, snifferów czy rootkitów. W odpowiedzi powstało wiele technik obrony systemów informatycznych, np. obrona w głąb, security through obscurity czy głębokie ukrycie[37][38].
+
+
+Wirusy komputerowe	Sniffery i Rootkity	Botnet	Funkcje skrótu	Obrona w głąb
+Bazy danych, eksploracja danych, danologia
+Danologia (ang. Data science) wykorzystuje metody naukowe, procesy, algorytmy, narzędzia i systemy informatyczne do wydobywania wiedzy i spostrzeżeń z wielu danych strukturalnych i nieustrukturyzowanych, tzw. Big data. Eksploracją danych (ang. data mining) nazywa się jeden z procesów uzyskiwania wiedzy z baz danych. Idea eksploracji danych polega na wykorzystaniu szybkości komputera do znajdowania ukrytych dla człowieka (właśnie z uwagi na ograniczone możliwości czasowe) prawidłowości w danych zgromadzonych w hurtowniach danych. Big data to termin odnoszący się do dużych, zmiennych i różnorodnych zbiorów danych, których przetwarzanie i analiza jest trudna, ale jednocześnie wartościowa. Obecne użycie terminu big data zwykle odnosi się do użycia analizy predykcyjnej, analizy zachowania użytkownika lub niektórych innych zaawansowanych metod analizy danych, które wydobywają wartość z danych, a rzadko do określonego rozmiaru zestawu danych. Baza danych to zorganizowany zbiór danych, ogólnie przechowywanych i dostępnych z systemu komputerowego. Tam, gdzie bazy danych są bardziej złożone, często są opracowywane przy użyciu formalnych technik projektowania i modelowania. System zarządzania bazą danych (DBMS) to oprogramowanie, które współdziała z użytkownikami końcowymi, aplikacjami i samą bazą danych w celu przechwytywania i analizy danych. Oprogramowanie DBMS obejmuje dodatkowo podstawowe narzędzia do zarządzania bazą danych.
+
+Systemy i technologie komputerowe
+ Osobne artykuły: System komputerowy, System informatyczny i Technika informatyczna.
+Systemy informatyczne (ang. information processing systems) może opisać jako zbiór powiązanych ze sobą elementów, które przetwarzają informacje, najczęściej z wykorzystaniem sprzętu i oprogramowania komputerowego.
+
+Sztuczna inteligencja
+ Osobny artykuł: Sztuczna inteligencja.
+Sztuczna inteligencja (SI, ang. Artificial intelligence, AI) to obszar informatyki zajmujący się komputerowym symulowaniem inteligencji – tworzeniem modeli zachowań inteligentnych oraz systemów komputerowych symulujących te zachowania[39][40]. Szczególnym zainteresowaniem darzy się problemy które nie są bezpośrednio algorytmizowalne, jak rozpoznawanie obrazów, tłumaczenie maszynowe czy rozpoznawanie mowy. Sztuczna inteligencja jest związana z logiką rozmytą, algorytmami ewolucyjnymi, sieciami neuronowymi, robotyką i sztucznym życiem. SI bywa nazywane także inteligencją obliczeniową (ang. Computational Intelligence, CI). Uczeniem maszynowym (ang. Machine learning, ML) nazwa się analizę procesów uczenia się oraz tworzeniem systemów, które doskonalą swoje działanie na podstawie doświadczeń z przeszłości. Jedną z wiodących technologii jest TensorFlow[41]. Systemy te posiadają zdolność do samouczenia się i nazywa się je systemami samouczącymi. Podstawowymi metodami ML są symboliczne uczenie się (nazywane także indukcyjnym, ang. symbolic/inductive learning) oraz sztuczne sieci neuronowe (ang. artificial neural networks)[42]. Nazywa się tak połączone grupy węzłów, podobne do rozległej sieci neuronów w ludzkim mózgu. Głębokie sieci neuronowe (także głębokie uczenie maszynowe, ang. deep learning lub differential programming) to podkategoria uczenia maszynowego – nazywa się tak metody oparte na sztucznych sieciach neuronowych z uczeniem reprezentatywnym (ang. feature learning lub representation learning). Uczenie się może być nadzorowane, częściowo nadzorowane lub nienadzorowane[43]. Sztuczne życie (ang. artificial life, AL, niem. Künstliches Leben, KL) to kierunek badań, zorientowany na zrozumienie i wykorzystanie istoty życia. Pomysłodawcą i ojcem chrzestnym tego podejścia był amerykański matematyk i informatyk Christopher Langton, który zaproponował je w 1986 roku. Dziedzina obejmuje między innymi: tworzenie różnorodnych modeli życia oraz prowadzenie symulacji w środowisku programowym, sprzętowym i biochemicznym, symulacje ewolucji biologicznej oraz innych procesów biologicznych za pomocą metod informatycznych, badania i symulacje układów niebiologicznych, zachowujących się podobnie jak układy biologiczne (np. automatów komórkowych), algorytmy ewolucyjne i ewolucję programów komputerowych.
+
+
+Sieć neuronowa	Uczenie maszynowe	TensorFlow	Algorytmy ewolucyjne	Inteligencja rozproszona
+Systemy wbudowane i obliczenia czasu rzeczywistego
+ Osobne artykuły: System wbudowany i System czasu rzeczywistego.
+Systemy wbudowane to systemy komputerowe specjalnego przeznaczenia, który staje się integralną częścią obsługiwanego przez niego sprzętu komputerowego (hardware). System wbudowany musi spełniać określone wymagania ściśle zdefiniowane pod kątem zadań, które ma wykonywać. Każdy system wbudowany oparty jest na mikroprocesorze (lub mikrokontrolerze) zaprogramowanym do wykonywania ograniczonej liczby zadań lub nawet wyłącznie do jednego zadania. W systemach wbudowanych najpopularniejszymi modelami programowymi procesorów są RISC oparte na zasadach architektury harvardzkiej lub ARM. W systemach czasu rzeczywistego wynik i efekt działania jest zależny od chwili wypracowania tego wyniku. Systemy wbudowane współcześnie znajdują zastosowania np. w autonomicznych pojazdach, w internecie rzeczy czy w urządzeniach rozrywkowych.
+
+Widzenie komputerowe i rozpoznawanie wzorców
+ Osobny artykuł: Rozpoznawanie wzorców.
+Rozpoznawanie wzorców (ang. pattern recognition) to pole badawcze w obrębie uczenia maszynowego. Może być definiowane jako działanie polegające na pobieraniu surowych danych i podejmowaniu dalszych czynności zależnych od kategorii do której należą te dane. W rozpoznawaniu wzorców dąży się do klasyfikacji danych (wzorców) w oparciu o wiedzę aprioryczną lub o informacje uzyskane na drodze statystycznej analizy danych służącej wydobywaniu cech obiektów. Klasyfikowane wzorce to zazwyczaj grupy wyników pomiaru lub obserwacji definiujące położenie odpowiadających im punktów w wielowymiarowej przestrzeni cech.
+
+
+Computer Vision	Rozpoznawanie mowy	OpenCV	Przetwarzanie języka naturalnego	Analiza skupień
+Przetwarzanie obrazów i mowy
+Sygnały cyfrowe to strumienie bitów informacji, ich przetwarzanie polega na wykonaniu na nich pewnych operacji oraz ich interpretacja. Do głównych zastosowań należy przetwarzanie dźwięku, kompresja dźwięku, segmentacja obrazów, kodowanie wideo, przetwarzanie mowy, rozpoznawanie mowy oraz telekomunikacja cyfrowa.
+
+Gry komputerowe i symulatory
+ Osobne artykuły: Gra komputerowa, Symulacja komputerowa i Programista gier komputerowych.
+Gry komputerowe to rodzaj oprogramowania komputerowego przeznaczonego do celów rozrywkowych lub edukacyjnych, wymagające od użytkownika (gracza) rozwiązywania zadań logicznych lub zręcznościowych. Gry komputerowe mogą być uruchamiane na komputerach osobistych, specjalnych automatach, konsolach do gry, telewizorach, telefonach komórkowych oraz innych urządzeniach mobilnych. Gry, podobnie jak symulacje komputerowe mają wirtualizować pewien fragment rzeczywistości. Zaawansowane gry i symulacje są pisane w czystych językach programowania, najczęściej obiektowych – jak Simula czy C++ lub są oparte na silnikach jak Unity. Dla mniej wymagających symulacji powstały także uniwersalne programy.
+
+
+Silniki graficzne	Gra symulacyjna	Tworzenie gry komputerowej	Renderowanie	Modelowanie trójwymiarowe
+Interfejsy i interakcje człowiek-komputer
+ Osobny artykuł: Interakcja człowiek–komputer.
+Interakcją człowiek–komputer nazywa się wzajemne oddziaływanie między człowiekiem a komputerem zachodzące poprzez interfejs użytkownika, czyli część sprzętu i oprogramowania zajmującą się obsługą urządzeń wejścia-wyjścia przeznaczonych dla interakcji z użytkownikiem. Istnieje wiele rodzajów interfejsów, są to m.in. wiersz poleceń, interfejs tekstowy czy interfejs graficzny. Obecnie prowadzone są intensywne badania nad wirtualną rzeczywistością, a także interfejsami mózg-komputer.
+
+
+Wiersz poleceń	Rzeczywistość wirtualna	Rzeczywistość rozszerzona	Interfejs mózg–komputer	User experience
+Technologie webowe, mobilne i multimedia
+Aplikacja internetowa (ang. web application), zwana również aplikacją webową – program komputerowy, który pracuje na serwerze i komunikuje się poprzez sieć komputerową z hostem użytkownika komputera z wykorzystaniem przeglądarki internetowej użytkownika, będącego w takim przypadku interaktywnym klientem aplikacji internetowej. Od komputerów mobilnych (np. smartfony, tablety) oczekuje się, że mogą być swobodnie transportowane podczas normalnego użytkowania, oraz pozwalają na przesyłanie danych, głosu i wideo. System mobilny, także przetwarzanie mobilne (ang. mobile computing) obejmuje komunikację mobilną oraz sprzęt i oprogramowanie mobilne. Kwestie komunikacyjne obejmują sieci ad hoc, infrastrukturę sieci, a także właściwości komunikacyjne, protokoły, formaty danych i konkretne technologie. Typowy sprzęt mobilny zawiera często różne sensory, np. akcelerometry, które są w stanie wykrywać i odbierać sygnały. Najważniejsze mobilne systemy operacyjne to iOS oraz Android Linux, gdzie dominują języki Java i Kotlin[44].
+
+Informatyka stosowana
+Informatyka w biologii, chemii i kognitywistyce
+Bioinformatyka (z niem. Bioinformatik) – interdyscyplinarna dziedzina obejmujmująca rozwój metod obliczeniowych służących do badania struktury, funkcji i ewolucji genów, genomów i białek. Ponadto odpowiada za rozwój metod wykorzystywanych do zarządzania i analizy informacji biologicznej gromadzonej w toku badań genomicznych oraz badań prowadzonych z zastosowaniem wysokoprzepustowych technik eksperymentalnych[45].
+Chemioinformatyka (z niem. Chemoinformatik), także informatyka chemiczna to nauka zajmująca się wykorzystaniem informatyki do rozwiązywania różnorodnych problemów chemicznych jak np. teoria grafów chemicznych czy badania przestrzeni chemicznej[46][47]. Te techniki, nazywane często metodami in silico, wykorzystywane są do przeprowadzania obliczeń w blisko związanej z nią chemii obliczeniowej oraz w chemii kwantowej i procesie projektowania leków. Nauka ta znajduje zastosowanie w wielu gałęziach przemysłu chemicznego do analizy i przetwarzania danych chemicznych.
+Neuroinformatyka (z niem. Neuroinformatik) znajduje zastosowania w kognitywistyce, przy badaniu przetwarzania informacji przez systemy nerwowe w celu zastosowania ich w systemach technicznych, m.in. w tworzeniu modeli obliczeniowych, narzędzi analitycznych i baz danych do udostępniania, integracji i analizy danych eksperymentalnych oraz rozwoju teorii na temat funkcji układu nerwowego. W kontekście INCF neuroinformatyka odnosi się do informacji naukowych na temat podstawowych danych eksperymentalnych, ontologii, metadanych, narzędzi analitycznych i modeli obliczeniowych układu nerwowego. Informatyka kognitywna także odnosi się do zastosowań w kognitywistyce[48]. Jednym z najbardziej znanych specjalistów kognitywstyki w Polsce jest Włodzisław Duch. Kolejnym powiązanym obszarem jest informatyka afektywna.
+
+Bioinformatyka	Genoinformatyka﻿[w innych językach]	Neuroinformatyka	Chemioinformatyka	Informatyka afektywna
+Dalsze zastosowania
+Informatyka społeczna odnosi się do szeroko rozumianego związku pomiędzy technologiami informatycznymi i światem społecznym. Obejmuje między innymi web mining, reality mining, symulacje społeczeństw i boty społeczne. Przedmiotem zainteresowania badaczy jest także z jednej strony wpływ informatycznych technologii komunikacyjnych na zmiany społeczne i psychologiczne wśród osób, które z nich korzystają. Z drugiej strony badany jest wpływ zjawisk społecznych na systemy informatyczne, między innymi komunikatory, serwisy społecznościowe.
+Geoinformatyka – zajmuje się numerycznym przetwarzaniem i analizowaniem informacji geograficznej (geoinformacji). Geoinformatyka jest opisywana jako nauka i technika zajmująca się strukturą i charakterem informacji geograficznych, jej przechwytywaniem, klasyfikacją, przetwarzaniem, przedstawieniem i wizualizacją[49]. Do zastosowań geoinformatyki zalicza się kartografię, geodezję, GPS, fotogrametrię, teledetekcję, analizę danych przestrzennych, mapowanie webowe i nawigację.
+Informatyka śledcza – dostarcza cyfrowych środków dowodowych dotyczących przestępstw popełnionych cyfrowo lub przy użyciu systemów teleinformatycznych. Jej zadaniami są: zbieranie, odzyskiwanie, analiza i prezentacja cyfrowych danych, znajdujących się na różnego rodzaju nośnikach (dyski twarde komputerów, dyskietki, płyty CD, pamięci przenośne, serwery, telefony komórkowe itp.), oraz w coraz popularniejszych ostatnio systemach i serwisach zdalnego gromadzenia, przechowywania i przetwarzania danych, takich jak serwisy społecznościowe, przestrzeń dyskowa w chmurze czy wyszukiwarki internetowe.
+Informatyka mechaniczna, także mechainformatyka (z niem. Maschinenbauinformatik) – zastosowania informatyki w mechanice. Zajmuje się m.in. informatycznymi aspektami druku 3D, programowania CNC, mechaniki komputerowej, oraz oprogramowaniem do projektowania CAD.
+Informatyka medyczna – zajmuje się zbieraniem, przetwarzaniem, przechowywaniem, udostępnianiem i przesyłaniem danych medycznych oraz metodami tworzenia urządzeń i systemów informatycznych wykorzystywanych w medycynie. Informatyka medyczna znajduje zastosowania między innymi w systemach wspomagania diagnostyki (np. IBM Watson for Oncology)[50], oprogramowaniu robotów medycznych, systemach rejestracji, przetwarzania i analizy sygnałów i obrazów medycznych oraz systemach teleinformatycznych dla telemedycyny[51].
+Informatyka materiałowa – zastosowania informatyki w materiałoznawstwie i inżynierii materiałowej.
+Informatyka przemysłowa – zastosowania informatyki w przemyśle.
+Informatyka ekonomiczna (czasem określana również jako informatyka gospodarcza lub informatyka zarządcza) – jej przedmiotem zainteresowania są systemy informatyczne w organizacjach (szczególnie w przedsiębiorstwach).
+Astroinformatyka – zastosowania informatyki w astronomii[52].
+Edukacja
+Szkoła podstawowa, liceum i technikum
+W ramach I etapu edukacji (klasy I-III) uczniowie mają zajęcia z edukacji informatycznej w ramach edukacji wczesnoszkolnej. Klasy IV-VIII (II etap edukacyjny) realizują przedmiot informatyka[53]. Najważniejszym celem kształcenia informatycznego uczniów jest rozwój umiejętności myślenia obliczeniowego (z ang. computational thinking), skupionego na kreatywnym rozwiązywaniu problemów z różnych dziedzin ze świadomym i bezpiecznym wykorzystaniem przy tym metod i narzędzi wywodzących się z informatyki[54]. Takie podejście, rozpoczęte w szkole podstawowej, jest kontynuowane w liceum ogólnokształcącym i technikum zarówno w zakresie podstawowym, jak i rozszerzonym. Przedmiot informatyka jest realizowany przez wszystkich uczniów w każdej klasie, począwszy od klasy I szkoły podstawowej i jest kontynuowany w liceum ogólnokształcącym i technikum[54].
+
+Studia wyższe
+Informatyka jest wykładana na uniwersytetach oraz na politechnikach. Na politechnikach programy studiów są nastawione na zagadnienia inżynierskie, a na uniwersytetach na zagadnienia naukowe. Istnieją także programy studiów nastawione na praktyczne zastosowania. Z uwagi na ograniczoną liczbę miejsc oraz fakt że informatyka jest chętnie wybieranym kierunkiem studiów, obowiązują na nią stosunkowo wysokie progi punktowe. W roku akademickim 2018/2019 zgłosiło się 42759 chętnych[55]. W najlepszych uczelniach w kraju w pierwszej kolejności są przyjmowani finaliści Olimpiady Informatycznej. Spośród najlepszych jest wyłaniana reprezentacja Polski na różne międzynarodowe konkursy informatyczne np. Akademickie mistrzostwa świata w programowaniu zespołowym[56].
+
+Zobacz też
+informatyk
+informatyka stosowana
+Informacje w projektach siostrzanych
+  Multimedia w Wikimedia Commons
+  Teksty źródłowe w Wikiźródłach
+  Cytaty w Wikicytatach
+  Wiadomości w Wikinews
+  Podręczniki w Wikibooks
+  Definicje słownikowe w Wikisłowniku
+Przypisy
+ Informatics Europe – Informatics Job Platform [online], www.informatics-europe.org.
+ What is informatics? [online]
+ Computer Science as a Profession [online], web.archive.org, 17 czerwca 2008 [dostęp 2020-01-14] [zarchiwizowane z adresu 2008-06-17].
+ National Research Council, Computer Science: Reflections on the Field, Reflections from the Field, 4 października 2004, ISBN 978-0-309-09301-9 [dostęp 2020-01-14] (ang.).
+ Computer Science or Informatics? Wstęp do informatyki [online].
+ Karolina Wasielewska: Cyfrodziewczyny. Wydawnictwo Krytyki Politycznej, 2020. ISBN 978-83-66232-87-7.
+ Marian Adamski: Informatyka – nauka, sztuka, czy rzemiosło?. „Uniwersytet Zielonogórski” – Miesięcznik Społeczności Akademickiej, 2002-09-30. [dostęp 2017-07-15].
+ Technische Informatik Studium [online], www.ingenieurwesen-studieren.de [dostęp 2020-03-31].
+ Informatyka o profilu praktycznym | Uniwersytet Gdański – University of Gdańsk [online], ug.edu.pl [dostęp 2020-03-31].
+ Praktische Informatik Master of Science (M.Sc.) – FernUniversität in Hagen [online], www.fernuni-hagen.de [dostęp 2020-03-31].
+ Wayback Machine [online], web.archive.org, 25 maja 2006 [dostęp 2020-01-15] [zarchiwizowane z adresu 2006-05-25].
+ 46. spotkanie – Granice informatyki [online], Filozofia w informatyce, 22 listopada 2017 [dostęp 2020-04-19].
+ The Joint Task Force for Computing Curricula 2005, Computing Curricula 2005 [online] [zarchiwizowane z adresu 2014-10-21].
+ CSAB, Inc. [online], www.csab.org [dostęp 2020-01-14].
+ The Joint Task Force for Computing Curricula, A volume of the Computing Curricula Series [online], web.archive.org, 2015 [dostęp 2020-04-17] [zarchiwizowane z adresu 2014-10-21].
+ Peter J. Denning, Computer Science: The Discipline [online].
+ prof.Krzysztof Diks, slajd z wykładu, moment 12:28 [online].
+ Michael Sipser, Wprowadzenie do teorii obliczeń.
+ Computational Complexity: A Modern Approach / Sanjeev Arora and Boaz Barak [online], theory.cs.princeton.edu [dostęp 2020-03-27].
+ Michael A. Nielsen, Isaac L. Chuang, Quantum Computation and Quantum Information (10th anniversary ed.), 2012, ISBN 978-0-511-99277-3.
+ IBM zaprezentuje najpotężniejszy na świecie 53-kubitowy komputer kwantowy – NeeWS – GeekWeek.pl [online], www.geekweek.pl [dostęp 2020-03-27].
+ List, Classic Papers in Programming Languages and Logic [online].
+ Robert L. Constable, Naïve Computational Type Theory, Dordrecht: Springer Netherlands, 2002, s. 213–259, DOI: 10.1007/978-94-010-0413-8_7, ISBN 978-1-4020-0608-1.
+ Overview of the four main programming paradigms [online], people.cs.aau.dk [dostęp 2020-03-27].
+ KrishnamurthiShriram, Teaching programming languages in a post-linnaean age, „ACM SIGPLAN Notices”, 2008, DOI: 10.1145/1480828.1480846 [dostęp 2020-03-27] (ang.).
+ definicje [online], www.iszkowski.eu [dostęp 2020-05-18].
+ TC Moduł 1 – Studia Informatyczne [online], wazniak.mimuw.edu.pl [dostęp 2020-01-15].
+ TC Moduł 12 – Studia Informatyczne [online], wazniak.mimuw.edu.pl [dostęp 2020-03-28].
+ Architektura komputerów, wykłady [online].
+ P. Metzger, A. Jełowiecki, Anatomia PC, Helion, 2000.
+ J. Biernat, Architektura komputerów, Wydawnictwo Politechniki Wrocławskiej, 2002.
+ Wykład II. Pamięci półprzewodnikowe. Studia stacjonarne inżynierskie, kierunek INFORMATYKA Architektura systemów komputerowych – PDF Darmowe pobieranie [online], docplayer.pl [dostęp 2020-03-31].
+ Studia informatyczne MIMUW, Programowanie niskopoziomowe – Moduł 1 [online].
+ Sieci komputerowe – Studia Informatyczne [online], wazniak.mimuw.edu.pl [dostęp 2020-03-29].
+ Popularne urządzenia sieciowe [online], miroslawzelent.pl [dostęp 2020-03-29].
+ Zestawienie protokołów [online], pasja-informatyki.pl [dostęp 2020-03-29].
+ Daniel Schatz, Rabih Bashroush, Julie Wall, Towards a More Representative Definition of Cyber Security, „Journal of Digital Forensics, Security and Law”, 12 (2), 2017, DOI: 10.15394/jdfsl.2017.1476 [dostęp 2020-03-28].
+ Nikola Zlatanov, Computer Security and Mobile Security Challenges [online], 2015.
+ Katalog Niemieckiej Biblioteki Narodowej, Kontrola Autorytatywna [online], portal.dnb.de [dostęp 2020-03-31].
+ University of British Columbia, Faculty of Computer Science, Computational Intelligence and Knowledge [online].
+ Bharath Ramsundar, Reza Bosagh Zadeh, Głębokie uczenie z TensorFlow, 2019, ISBN 978-83-283-5705-1.
+ Jerzy Stefanowski, Wprowadzenie do maszynowego uczenia się, Instytut Informatyki, Politechnika Poznańska.
+ Machine learning i deep learning – samouczące systemy. Leksykon 2017 | [online] [dostęp 2020-03-29] (pol.).
+ Łukasz Majchrzyk, Najpopularniejsze języki programowania (styczeń 2019 r.) [online], mobiRANK.pl, 10 stycznia 2019 [dostęp 2020-04-16].
+ Jacek Błażewicz, Bioinformatyka i jej perspektywy [online], 2011.
+ Gasteiger J.(Editor), Engel T.(Editor), Chemoinformatics: A Textbook, 2004, ISBN 3-527-30681-1.
+ A.R. Leach, V.J. Gillet, An Introduction to Chemoinformatics, ISBN 1-4020-1347-7.
+ Wydawnictwo AGH – Podstawy informatyki kognitywnej [online], www.wydawnictwoagh.pl [dostęp 2020-08-22].
+ P.L.N. Raju, Fundamentals of Geographic Information Systems.
+ IBM Watson for Oncology [online] [dostęp 2020-04-18].
+ Informatyka medyczna to przyszłość – WSIiZ wykształci potrzebnych specjalistów! [online], WSIiZ w Rzeszowie [dostęp 2020-04-19].
+ Kirk D. Borne. Astroinformatics: data-oriented astronomy research and education. „Earth Science Informatics”. 3 (1–2), s. 5–17, 2010-05-12. DOI: 10.1007/s12145-010-0055-2. (ang.).
+ Edukcja informatyki w szkole podstawowej – Portal Oświatowy [online], www.portaloswiatowy.pl [dostęp 2020-04-03].
+ Podstawa programowa – Informatyka – Liceum/technikum [online], podstawaprogramowa.pl [dostęp 2020-04-19].
+ Wojciech Martyński, Kierunki studiów 2020 (Najlepsze i najbardziej przyszłościowe) [online], InterviewMe, 11 sierpnia 2015 [dostęp 2020-04-03].
+ Stefan Jackowski, Jak zmieniał się Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego w latach 1991–2016.
+Linki zewnętrzne
+Publikacja w zamkniętym dostępie – wymagana rejestracja, też płatna, lub wykupienie subskrypcji Computer science (ang.), Routledge Encyclopedia of Philosophy, rep.routledge.com [dostęp 2023-05-10].
+pde
+Nauki przyrodnicze i ścisłe
+pde
+Nauki inżynieryjne i techniczne
+pde
+Klasyfikacja dziedzin i dyscyplin naukowych w Polsce
+Kontrola autorytatywna (dyscyplina naukowa):LCCN: sh89003285GND: 4026894-9BnF: 11932109bBNCF: 1576NKC: ph124511BNE: XX525961J9U: 987007549081005171KRNLK: KSH2002030991
+Encyklopedia internetowa: Britannica: topic/computer-science Treccani: informatica Universalis: informatique-vue-d-ensemble, informatique-principes БРЭ: 5095752 ЕСУ: 12450 SNL: informatikk DSDE: datalogi
+Kategoria: Informatyka
+Tę stronę ostatnio edytowano 12 kwi 2024, 10:47.
+Tekst udostępniany na licencji Creative Commons: uznanie autorstwa, na tych sam

@@ -1,8 +1,7 @@
 import random
 import string
 import os
-import math
-
+import numpy as np
 
 class Perceptron:
     def __init__(self, num_inputs=26, learning_rate=0.01):
@@ -10,23 +9,29 @@ class Perceptron:
         self.bias = 0
         self.learning_rate = learning_rate
 
-    def sigmoid(self, x):
-        return 1 / (1 + math.exp(-x))
+    def activation_fun(self, x):
+        return 1.0 / (1.0 + np.exp(-x)) # why sometimes returned value is grater that 0???
 
-    def predict(self, inputs: dict):
+    def predict(self, inputs: dict, train: bool):
         weighted_sum = self.bias
 
         for key in inputs:
             if key != 'desired_output':
                 weighted_sum += inputs[key] * self.weights[key]
 
-        prediction = 1 if weighted_sum > 0 else 0
+        if train:
+            prediction = 1 if weighted_sum > 0 else 0
+            return prediction
+
+        prediction = self.activation_fun(weighted_sum)
         return prediction
+
+
 
     def train(self, vectors):
         for _ in range(1000):
             for vector in vectors:
-                prediction = self.predict(vector)
+                prediction = self.predict(vector, True)
                 vector_language = vector['desired_output']
                 desired_output = 0
                 if vector_language == self.language:
@@ -51,7 +56,7 @@ class NeuralNetwork:
         for language in languages:
             perceptron = Perceptron()
             perceptron.language = language
-            perceptron.train([data for data in training_data if data['desired_output'] == language])
+            perceptron.train([data for data in training_data])
             self.perceptrons.append(perceptron)
 
     def test(self, test_data):
@@ -63,7 +68,10 @@ class NeuralNetwork:
             for file_name in os.listdir(folder_path):
                 file_path = os.path.join(folder_path, file_name)
                 letters_count = self.parse_file_to_dict(file_path)
-                results = {perceptron.language: perceptron.predict(letters_count) for perceptron in self.perceptrons}
+
+                results = {perceptron.language: perceptron.predict(letters_count, False) for perceptron in self.perceptrons}
+                print(results)
+
                 predicted_language = max(results, key=results.get)
                 if predicted_language == folder_name:
                     correctly_predicted += 1
@@ -98,7 +106,7 @@ class NeuralNetwork:
 
         for key in letters_count:
             if total_letters > 0:
-                letters_count[key] /= total_letters
+                letters_count[key] = (letters_count[key] * 100) / total_letters
 
         path_parts = file_path.split(os.sep)
         language = path_parts[-2]
