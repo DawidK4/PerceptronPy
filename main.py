@@ -48,6 +48,23 @@ class NeuralNetwork:
     def __init__(self):
         self.perceptrons = []
 
+    def predict(self):
+        text = str(input('Enter text: '))
+        letters_count = {letter: 0 for letter in string.ascii_lowercase}
+        text_length = 0
+        for letter in text:
+            lowercase_letter = letter.lower()
+            if lowercase_letter in letters_count:
+                letters_count[lowercase_letter] += 1
+                text_length += 1
+
+        for key, value in letters_count.items():
+            letters_count[key] = (letters_count[key] * 100) / text_length
+
+        results = {perceptron.language: perceptron.predict(letters_count, False) for perceptron in self.perceptrons}
+        print(results)
+        print("Prediction: " + str(max(results, key=results.get)))
+
     def train(self, training_data):
         languages = set()
         for data in training_data:
@@ -120,3 +137,4 @@ if __name__ == '__main__':
     training_data = neural_net.load_training_data("training_data")
     neural_net.train(training_data)
     neural_net.test("testing_data")
+    neural_net.predict()
